@@ -29,6 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="kr.androy.volleyext.sample.demos.facebook.FaceBookMainActivity" >
+        </activity>
         <activity android:name="kr.androy.volleyext.sample.demos.github.activity.GithubActivity" >
         </activity>
         <activity android:name="kr.androy.volleyext.sample.demos.amazon.activity.AmazonActivity" >

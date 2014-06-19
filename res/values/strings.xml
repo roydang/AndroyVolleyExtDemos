@@ -10,4 +10,6 @@
 	<string name="github_activity_text">Github JSON-format User API</string>
     <string name="single_tap_zoom_network_image_view_activity_text">Single Tap Zoom NetworkImageView</string>
     <string name="double_tap_zoom_network_image_view_activity_text">Double Tap Zoom NetworkImageView</string>	
+    <string name="facebook_test">FacebookConnTest</string>	
+    <string name="facebook_login">FacebookLogin</string>	
 </resources>

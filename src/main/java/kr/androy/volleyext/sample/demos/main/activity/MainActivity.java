@@ -17,6 +17,7 @@ package kr.androy.volleyext.sample.demos.main.activity;
 
 import kr.androy.volleyext.sample.demos.R;
 import kr.androy.volleyext.sample.demos.amazon.activity.AmazonActivity;
+import kr.androy.volleyext.sample.demos.facebook.FaceBookMainActivity;
 import kr.androy.volleyext.sample.demos.github.activity.GithubActivity;
 import kr.androy.volleyext.sample.demos.view.activity.DoubleTapZoomNetworkImageViewActivity;
 import kr.androy.volleyext.sample.demos.view.activity.SingleTapZoomNetworkImageViewActivity;
@@ -40,10 +41,19 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		Button facebookActivityButton = (Button) findViewById(R.id.facebook_activity_button);
 		Button githubActivityButton = (Button) findViewById(R.id.github_activity_button);
 		Button amazonActivityButton = (Button) findViewById(R.id.amazon_activity_button);
 		Button singleTapZoomNetworkImageViewActivityButton = (Button) findViewById(R.id.single_tap_zoom_network_image_view_activity_button);
 		Button doubleTapZoomNetworkImageViewActivityButton = (Button) findViewById(R.id.double_tap_zoom_network_image_view_activity_button);
+		facebookActivityButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, FaceBookMainActivity.class);
+				MainActivity.this.startActivity(intent);		
+			}
+		});
 		githubActivityButton.setOnClickListener(new OnClickListener(){
 			@Override
 			public void onClick(View v) {

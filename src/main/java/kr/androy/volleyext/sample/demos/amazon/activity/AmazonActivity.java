@@ -43,12 +43,6 @@ public class AmazonActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-    	Log.d("TAG","## CacheDispatcher init");
-    	Log.d("TAG","## CacheDispatcher init");
-    	Log.d("TAG","## CacheDispatcher init");
-    	Log.d("TAG","## CacheDispatcher init");
-    	System.out.println("#####################");
-		
 		setContentView(R.layout.activity_amazon);
 
 		listView = (ListView) findViewById(R.id.listView);
