@@ -23,19 +23,17 @@ public class FaceBookMainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				FacebookHandle fbHandle = AppUtility.makeHandle(FaceBookMainActivity.this);
+				final FacebookHandle fbHandle = AppUtility.makeHandle(FaceBookMainActivity.this);
 				fbHandle.setListener(new FBHandleListener() {
 					
 					@Override
 					public void onSuccess() {
-						// TODO Auto-generated method stub
-						
+						logger.d("# login success token:%s", fbHandle.getToken());
 					}
 					
 					@Override
 					public void onFail() {
-						// TODO Auto-generated method stub
-						
+						logger.d("# login fail token:%s", fbHandle.getToken());
 					}
 				});
 				fbHandle.auth();

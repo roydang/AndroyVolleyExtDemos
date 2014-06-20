@@ -19,7 +19,7 @@ import java.util.List;
 
 import kr.androy.volleyext.sample.demos.R;
 import kr.androy.volleyext.sample.demos.amazon.model.ShoppingItem;
-import kr.androy.volleyext.sample.demos.application.volley.MyVolley;
+import kr.androy.volleyext.sample.demos.application.MyApplication;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -42,7 +42,7 @@ public class AmazonListAdapter extends BaseAdapter {
 		this.inflater = LayoutInflater.from(context);
 		this.items = items;
 		
-		loader = MyVolley.getImageLoader();
+		loader = MyApplication.getImageLoader();
 	}
 
 	@Override

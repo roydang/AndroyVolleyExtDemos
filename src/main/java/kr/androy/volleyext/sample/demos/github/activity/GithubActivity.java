@@ -18,7 +18,7 @@ package kr.androy.volleyext.sample.demos.github.activity;
 import kr.androy.volleyext.request.Jackson2Request;
 import kr.androy.volleyext.request.JacksonRequest;
 import kr.androy.volleyext.sample.demos.R;
-import kr.androy.volleyext.sample.demos.application.volley.MyVolley;
+import kr.androy.volleyext.sample.demos.application.MyApplication;
 import kr.androy.volleyext.sample.demos.github.model.Person;
 import android.app.Activity;
 import android.os.Bundle;
@@ -40,7 +40,7 @@ public class GithubActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestQueue = MyVolley.getRequestQueue();
+		requestQueue = MyApplication.getRequestQueue();
 		setContentView(R.layout.activity_github);
 		personInfoTextForJackson = (TextView) findViewById(R.id.personInfoTextForJackson);
 		personInfoTextForJackson2 = (TextView) findViewById(R.id.personInfoTextForJackson2);

@@ -1,7 +1,7 @@
 package kr.androy.volleyext.sample.demos.view.activity;
 
 import kr.androy.volleyext.sample.demos.R;
-import kr.androy.volleyext.sample.demos.application.volley.MyVolley;
+import kr.androy.volleyext.sample.demos.application.MyApplication;
 import kr.androy.volleyext.view.ZoomableNetworkImageView;
 import kr.androy.volleyext.view.ZoomableNetworkImageView.OnImageChangedListener;
 import android.app.Activity;
@@ -22,7 +22,7 @@ public class DoubleTapZoomNetworkImageViewActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_double_tap_zoom_network_image_view);
-		imageLoader = MyVolley.getImageLoader();
+		imageLoader = MyApplication.getImageLoader();
 		initializeZoomableImageView();
 	}
 

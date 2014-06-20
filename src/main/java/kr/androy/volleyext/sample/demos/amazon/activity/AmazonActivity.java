@@ -19,10 +19,9 @@ import kr.androy.volleyext.request.SimpleXmlRequest;
 import kr.androy.volleyext.sample.demos.R;
 import kr.androy.volleyext.sample.demos.amazon.listview.AmazonListAdapter;
 import kr.androy.volleyext.sample.demos.amazon.model.ShoppingRssFeed;
-import kr.androy.volleyext.sample.demos.application.volley.MyVolley;
+import kr.androy.volleyext.sample.demos.application.MyApplication;
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -48,8 +47,8 @@ public class AmazonActivity extends Activity {
 		listView = (ListView) findViewById(R.id.listView);
 		loadingProgress = (ProgressBar) findViewById(R.id.loadingProgress);
 
-		loader = MyVolley.getImageLoader();
-		requestQueue = MyVolley.getRequestQueue();
+		loader = MyApplication.getImageLoader();
+		requestQueue = MyApplication.getRequestQueue();
 
 		loadShoppingItems();
 	}
