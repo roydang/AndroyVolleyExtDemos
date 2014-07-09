@@ -10,6 +10,16 @@
     android:gravity="center"
     android:orientation="vertical" >
     <Button
+        android:id="@+id/test_sqlite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sqlite_test" />        
+    <Button
+        android:id="@+id/test_ormlite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ormlite_test" />                
+    <Button
         android:id="@+id/facebook_activity_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

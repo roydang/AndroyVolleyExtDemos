@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Volley Extensions Sample</string>
+    <string name="app_name">krAndroy_VolleyExtSample</string>
     <string name="action_settings">Settings</string>
 	<string name="jackson1_text">--- Jackson 1.x ---</string>
 	<string name="jackson2_text">--- Jackson 2.x ---</string>
@@ -11,5 +11,9 @@
     <string name="single_tap_zoom_network_image_view_activity_text">Single Tap Zoom NetworkImageView</string>
     <string name="double_tap_zoom_network_image_view_activity_text">Double Tap Zoom NetworkImageView</string>	
     <string name="facebook_test">FacebookConnTest</string>	
+    <string name="sqlite_test">SQLiteTest</string>	
+    <string name="ormlite_test">ORMLiteTest</string>	
+    <string name="sqlite_insert_test">SQLite Insert Test</string>	
+    <string name="sqlite_delete_test">SQLite Delete Test</string>	    
     <string name="facebook_login">FacebookLogin</string>	
 </resources>
