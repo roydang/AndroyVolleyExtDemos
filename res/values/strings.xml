@@ -12,6 +12,7 @@
     <string name="double_tap_zoom_network_image_view_activity_text">Double Tap Zoom NetworkImageView</string>	
     <string name="facebook_test">FacebookConnTest</string>	
     <string name="sqlite_test">SQLiteTest</string>	
+    <string name="instagram_test">InstagramTest</string>	    
     <string name="ormlite_test">ORMLiteTest</string>	
     <string name="sqlite_insert_test">SQLite Insert Test</string>	
     <string name="sqlite_delete_test">SQLite Delete Test</string>	    

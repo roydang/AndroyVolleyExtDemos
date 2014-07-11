@@ -47,6 +47,7 @@ public class MainActivity extends Activity {
 		
 //		setStrictMode();
 		
+		Button instagramButton = (Button) findViewById(R.id.test_instagram);
 		Button sqliteButton = (Button) findViewById(R.id.test_sqlite_button);
 		Button ormliteButton = (Button) findViewById(R.id.test_ormlite_button);
 		Button facebookActivityButton = (Button) findViewById(R.id.facebook_activity_button);
@@ -54,6 +55,15 @@ public class MainActivity extends Activity {
 		Button amazonActivityButton = (Button) findViewById(R.id.amazon_activity_button);
 		Button singleTapZoomNetworkImageViewActivityButton = (Button) findViewById(R.id.single_tap_zoom_network_image_view_activity_button);
 		Button doubleTapZoomNetworkImageViewActivityButton = (Button) findViewById(R.id.double_tap_zoom_network_image_view_activity_button);
+		
+		instagramButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, ORMLiteTestActivity.class);
+				MainActivity.this.startActivity(intent);
+			}
+		});
 		
 		ormliteButton.setOnClickListener(new OnClickListener() {
 			
