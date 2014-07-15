@@ -22,7 +22,7 @@ public class ORMLiteTestActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {	
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_sqllite_test);
-		setTitle("ORMLiteTestActivity");
+		setTitle("ORMLiteTestActivity git test2 branch 수정");
 		initView();
 	}
 	private void initView() {
