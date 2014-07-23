@@ -15,7 +15,6 @@
  */
 package kr.androy.volleyext.sample.demos.amazon.activity;
 
-import kr.androy.volleyext.request.SimpleXmlRequest;
 import kr.androy.volleyext.sample.demos.R;
 import kr.androy.volleyext.sample.demos.amazon.listview.AmazonListAdapter;
 import kr.androy.volleyext.sample.demos.amazon.model.ShoppingRssFeed;
@@ -29,6 +28,7 @@ import android.widget.ProgressBar;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response.Listener;
 import com.android.volley.toolbox.ImageLoader;
+import com.navercorp.volleyextensions.request.SimpleXmlRequest;
 
 public class AmazonActivity extends Activity {
 	private static final String GET_ITEMS_URL = "http://www.amazon.com/rss/tag/running/recent/ref=tag_rsh_hl_ersr";

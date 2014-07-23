@@ -2,8 +2,6 @@ package kr.androy.volleyext.sample.demos.view.activity;
 
 import kr.androy.volleyext.sample.demos.R;
 import kr.androy.volleyext.sample.demos.application.MyApplication;
-import kr.androy.volleyext.view.ZoomableNetworkImageView;
-import kr.androy.volleyext.view.ZoomableNetworkImageView.OnImageChangedListener;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,6 +9,8 @@ import android.view.View;
 import android.widget.ProgressBar;
 
 import com.android.volley.toolbox.ImageLoader;
+import com.navercorp.volleyextensions.view.ZoomableNetworkImageView;
+import com.navercorp.volleyextensions.view.ZoomableNetworkImageView.OnImageChangedListener;
 
 public class SingleTapZoomNetworkImageViewActivity extends Activity {
 	private static final String SAMPLE_IMAGE_URL = "http://www.phototravelpages.com/wallpapers/sunny-gardens-1024.jpg";

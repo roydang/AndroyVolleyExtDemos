@@ -15,8 +15,6 @@
  */
 package kr.androy.volleyext.sample.demos.github.activity;
 
-import kr.androy.volleyext.request.Jackson2Request;
-import kr.androy.volleyext.request.JacksonRequest;
 import kr.androy.volleyext.sample.demos.R;
 import kr.androy.volleyext.sample.demos.application.MyApplication;
 import kr.androy.volleyext.sample.demos.github.model.Person;
@@ -29,6 +27,8 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
+import com.navercorp.volleyextensions.request.Jackson2Request;
+import com.navercorp.volleyextensions.request.JacksonRequest;
 
 public class GithubActivity extends Activity {
 	private static final String GITHUB_SAMPLE_USER = "ncoolz";
